@@ -13,6 +13,4 @@ public interface CourseRepository extends JpaRepository<Course, UUID> {
 
   public Optional<Course> findById(UUID id);
 
-  public Optional<Course> findByTitle(String Title);
-
 }
